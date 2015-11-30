@@ -1,0 +1,18 @@
+.page-heading {
+  color: white;
+  text-align: center;
+}
+
+#main-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url(http://www.ece.illinois.edu/newsroom/images/ece-building-exterior.jpg);
+  background-size: cover;
+  height: 400px;
+
+
+}
+
+.filler {
+  background-color: red;
+  height: 700px;
+}

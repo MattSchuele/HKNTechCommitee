@@ -1,0 +1,81 @@
+$navbar-height: 80px;
+$navbar-logo-height: 60px;
+$navbar-logo-color: #ffffff;
+$navbar-color: rgba(#ffffff, 0);
+$navbar-transition-speed: 1s;
+$navbar-font-size: $small-font-size;
+
+#header {
+  background-color: $navbar-color;
+  transition: all $navbar-transition-speed;
+  width: 100%;
+  height: $navbar-height;
+  position: fixed;
+
+  nav {
+    height: 100%;
+
+    .logo {
+      float: left;
+      height: 100%;
+
+      @include center-align-parent;
+
+      svg {
+        @include center-align-child;
+      }
+
+    }
+
+    .links {
+      float: right;
+      height: 100%;
+
+      @include center-align-parent;
+
+      li {
+        display: inline;
+        margin-left: 10px;
+
+        @include center-align-child;
+
+        a {
+          text-transform: uppercase;
+          //color: $navbar-logo-color;
+          font-weight: 500;
+          font-size: $navbar-font-size;
+        }
+
+        a:hover {
+          color: transparentize($navbar-logo-color, 0.5);
+        }
+
+        &:nth-last-child(n + 2) {
+          margin-right: 10px;
+          border: black 1px;
+        }
+      }
+    }
+  }
+}
+
+#main-image {
+  padding-top: $navbar-height;
+}
+
+.logo svg {
+  height: $navbar-logo-height;
+  width: auto;
+}
+
+.sticky {
+  background-color: opacify($navbar-color, 1) !important;
+  transition: all $navbar-transition-speed;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.logo-fill {
+  fill: $navbar-logo-color;
+  color: $navbar-logo-color;
+  transition: all $navbar-transition-speed;
+}

@@ -1,0 +1,40 @@
+$sidebar-width: 300px;
+$sidebar-text-color: #000000;
+$sidebar-left-padding: 40px;
+
+#sidebar {
+  position: fixed;
+  top: $navbar-height;
+  left: 0;
+
+  padding-top: 20px;
+  padding-left: $sidebar-left-padding;
+
+  height: 100%;
+
+  ul {
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $sidebar-text-color;
+      }
+    }
+  }
+
+  @include media($small-screen-max) {
+    display: none;
+  }
+
+  @include media($small-screen-min) {
+    width: $sidebar-width * 0.8;
+  }
+
+  @include media($large-screen-min) {
+    width: $sidebar-width;
+  }
+
+  > h1 {
+    font-size: 40px;
+  }
+}

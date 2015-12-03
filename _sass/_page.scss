@@ -1,0 +1,23 @@
+.page-content {
+  margin-top: $navbar-height;
+
+  @include media($small-screen-min) {
+    margin-left: $sidebar-width * 0.8;
+  }
+
+  @include media($large-screen-min) {
+    margin-left: $sidebar-width;
+  }
+}
+
+.page-container {
+  @include outer-container(80%);
+  padding-top: 20px;
+
+  div {
+    h1 {
+      font-size: 2rem;
+    }
+    margin-bottom: 20px;
+  }
+}

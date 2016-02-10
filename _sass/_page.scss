@@ -1,23 +1,31 @@
 .page-content {
   margin-top: $navbar-height;
 
-  @include media($small-screen-min) {
-    margin-left: $sidebar-width * 0.8;
-  }
-
-  @include media($large-screen-min) {
-    margin-left: $sidebar-width;
-  }
+  //@include media($small-screen-min) {
+  //  margin-left: $sidebar-width * 0.8;
+  //}
+  //
+  //@include media($large-screen-min) {
+  //  margin-left: $sidebar-width;
+  //}
 }
 
 .page-container {
-  @include outer-container(80%);
-  padding-top: 20px;
+  @include outer-container;
+
+  padding: 1.5rem 1rem 0 1rem;
+
+  > div {
+    margin-bottom: 5rem;
+
+    > p {
+      margin-bottom: 0.5rem;
+    }
+  }
 
   div {
     h1 {
       font-size: 2rem;
     }
-    margin-bottom: 20px;
   }
 }

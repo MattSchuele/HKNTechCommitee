@@ -1,0 +1,84 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Roboto', sans-serif;
+$base-font-size:   16px;
+$large-font-size:  $base-font-size * 1.125;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #ffffff;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$small-screen-size:        40rem;
+$medium-screen-size:       80rem;
+$large-screen-size:        120rem;
+
+$small-screen-min:    min-width $small-screen-size;
+$small-screen-max:    max-width $small-screen-size;
+$medium-screen-min:   min-width $medium-screen-size;
+$medium-screen-max:   max-width $medium-screen-size;
+$large-screen-min:    min-width $large-screen-size;
+$large-screen-max:    max-width $large-screen-size;
+
+//
+//$small-screen:    max-width $small-screen-size;
+//$medium-screen:   min-width $small-screen-size max-width $medium-screen-size;
+//$large-screen:    min-width $medium-screen-size max-width $large-screen-size;
+//$extra-large-screen: min-width $small-screen-size;
+
+//$small-screen:    max-width $small-screen-size;
+//$medium-screen:   min-width $small-screen-size;
+//$large-screen:    min-width $medium-screen-size;
+//$extra-large-screen: min-width $small-screen-size;
+
+
+$content-max-width:  1384px;
+$content-padding:  15px;
+
+$border-base: 1px solid rgba(#000000, 0.5);
+
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+@import "bourbon/bourbon"; // or "bourbon" when in Rails
+@import "grid-settings";
+@import "neat/neat"; // or "neat" when in Rails
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "menu-layout",
+        "mixins",
+        "layout",
+        "header",
+        "footer",
+        "sidebar",
+        "main_page",
+        "page",
+        "hero-image"
+;

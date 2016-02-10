@@ -1,0 +1,19 @@
+---
+layout: page
+---
+{% for entry in site.about %}
+<div>
+    <h1><a name="{{entry.tag}}">{{entry.title}}</a></h1>
+    <p>{{entry.content}}</p>
+</div>
+{% endfor %}
+
+
+
+{% contentfor sidebar-title %}
+About
+{% endcontentfor %}
+
+{% contentfor hero-image-title %}
+About
+{% endcontentfor %}

@@ -1,0 +1,17 @@
+---
+layout: page
+---
+{% for entry in site.service %}
+<div>
+    <h1><a name="{{entry.tag}}">{{entry.title}}</a></h1>
+    <p>{{entry.content}}</p>
+</div>
+{% endfor %}
+
+{% contentfor sidebar-title %}
+Student Service
+{% endcontentfor %}
+
+{% contentfor hero-image-title %}
+Student Service
+{% endcontentfor %}

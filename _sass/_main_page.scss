@@ -1,18 +1,123 @@
-.page-heading {
+@mixin image-base($url) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)), url($url);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 35rem;
+
+  z-index: 1;
+}
+
+#carousel-image-1 {
+  @include image-base('/assets/img/board.jpg');
+
+  height: 40rem;
+}
+
+#carousel-image-2 {
+  @include image-base('/assets/img/service.jpg');
+  height: 40rem;
+}
+
+#carousel-image-3 {
+  @include image-base('/assets/img/front_page_img.jpg');
+  height: 40rem;
+}
+
+.main-carousel {
+  position: relative;
+
+  > aside {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-color: transparentize(#000, 0.5);
+      transition: all 1s;
+    }
+
+    span {
+      font-size: 10rem;
+      color: #fff;
+    }
+  }
+}
+
+.carousel-next {
+  right: 0;
+  top: 0;
+}
+
+.carousel-image {
+}
+
+.image-heading {
   color: white;
   text-align: center;
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 72px;
+    font-weight: 300;
+  }
 }
 
 #main-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)), url(http://www.ece.illinois.edu/newsroom/images/ece-building-exterior.jpg);
-  background-size: cover;
-  height: 400px;
-
-
+  @include image-base('http://www.ece.illinois.edu/newsroom/images/ece-building-exterior.jpg');
 }
 
 .filler {
-  background-color: red;
-  height: 700px;
+  height: 5px;
+  background-color: #636363;
+}
+
+.post {
+  width: 100%;
+  height: auto;
+}
+
+.post-container {
+  position: relative;
+
+  padding: 4rem 1rem 4rem 1rem;
+
+  //height: 500px;
+
+  @include outer-container;
+
+  article {
+    //text-align: justify;
+
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+
+}
+
+.main-newsletter {
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  input[name='email'] {
+    height: 2rem;
+    font-size: 1.5rem;
+  }
 }

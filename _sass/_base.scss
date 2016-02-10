@@ -106,7 +106,7 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($large-screen) {
+    @include media-query($large-screen-max) {
         max-width: -webkit-calc(800px - (#{$spacing-unit}));
         max-width:         calc(800px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;

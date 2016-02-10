@@ -1,0 +1,13 @@
+---
+layout: page
+---
+{% for entry in site.initiates %}
+<div>
+    <h1><a name="{{entry.tag}}">{{entry.title}}</a></h1>
+    <p>{{entry.content}}</p>
+</div>
+{% endfor %}
+
+{% contentfor hero-image-title %}
+Initiates
+{% endcontentfor %}

@@ -1,22 +1,84 @@
-$navbar-height: 80px;
-$navbar-logo-height: 60px;
-$navbar-logo-color: #ffffff;
-$navbar-color: rgba(#ffffff, 0);
+$navbar-height: 5rem;
+$navbar-logo-height: 4rem;
+$navbar-color-fixed: rgba(#F05F40, 1);
+$navbar-logo-color: rgba(#fff, 1);
+//$navbar-logo-color: $navbar-color-fixed;
+$navbar-logo-color-fixed: #fff;
+$navbar-color: rgba(#fff, 0);
+//$navbar-color: rgba(#F05F40, 0);
+//$navbar-color-fixed: rgba(#ff890a, 1);
 $navbar-transition-speed: 1s;
 $navbar-font-size: $small-font-size;
+$navbar-shadow: 0 3px 8px -4px rgba(0,0,0,0.3);
+$navbar-sticky-color: #000;
 
 #header {
   background-color: $navbar-color;
   transition: all $navbar-transition-speed;
   width: 100%;
   height: $navbar-height;
+
+  top: 0;
+  left: 0;
   position: fixed;
+  z-index: 3;
+
+  @include media($mobile) {
+    :not(.sticky) {
+      .logo-fill {
+        fill: #000 !important;
+        color: #000 !important;
+      }
+    }
+    background-color: opacify($navbar-color, 1) ;//!important;
+  }
 
   nav {
     height: 100%;
 
+    @include outer-container();
+
+    @include media($mobile-above, 4) {
+      .nav-left {
+        @include span-columns(1);
+
+        #menu-button {
+          display: none;
+        }
+      }
+
+      .nav-right {
+        height: 100%;
+        @include span-columns(3);
+      }
+    }
+
+    @include media($mobile) {
+      .nav-right {
+        display: none;
+      }
+    }
+
+    .nav-left {
+
+
+      @include media($mobile) {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      padding: 0 1rem 0 1rem;
+      height: 100%;
+
+    }
+
+    .nav-right {
+      //height: 100%;
+      padding: 0 1rem 0 1rem;
+    }
+
     .logo {
-      float: left;
       height: 100%;
 
       @include center-align-parent;
@@ -28,20 +90,28 @@ $navbar-font-size: $small-font-size;
     }
 
     .links {
-      float: right;
       height: 100%;
+      list-style: none;
 
-      @include center-align-parent;
+      display: flex;
+
+      justify-content: flex-end;
+      align-items: center;
+
+      @include media($mobile) {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+      }
 
       li {
-        display: inline;
-        margin-left: 10px;
-
-        @include center-align-child;
+        @include media($mobile-above) {
+          display: inline;
+          margin-left: 10px;
+        }
 
         a {
           text-transform: uppercase;
-          //color: $navbar-logo-color;
           font-weight: 500;
           font-size: $navbar-font-size;
         }
@@ -59,7 +129,41 @@ $navbar-font-size: $small-font-size;
   }
 }
 
-#main-image {
+#header.expanded {
+  box-shadow: none;
+
+  :not(.sticky) {
+    .logo-fill {
+      fill: #000 !important;
+      color: #000 !important;
+    }
+  }
+
+  &.fixed {
+    .nav-right {
+      background-color: opacify($navbar-color-fixed, 1);
+    }
+  }
+
+  .nav-right {
+    display: block !important;
+    background-color: opacify($navbar-color, 1);
+    box-shadow: $navbar-shadow;
+  }
+
+  .links {
+    li {
+      width: 100%;
+    }
+  }
+}
+
+
+/*.expanded {
+  background-color: #2a7ae2;
+}*/
+
+.hero-image {
   padding-top: $navbar-height;
 }
 
@@ -68,14 +172,44 @@ $navbar-font-size: $small-font-size;
   width: auto;
 }
 
-.sticky {
+@mixin navbar-fixed-base {
   background-color: opacify($navbar-color, 1) !important;
   transition: all $navbar-transition-speed;
-  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.sticky {
+  @include navbar-fixed-base;
+  box-shadow: $navbar-shadow;
+
+  .logo-fill {
+    fill: $navbar-sticky-color !important;
+    color: $navbar-sticky-color !important;
+  }
+}
+
+.fixed {
+  @include navbar-fixed-base;
+  //border-bottom: $border-base;
+  background-color: $navbar-color-fixed !important;
 }
 
 .logo-fill {
   fill: $navbar-logo-color;
   color: $navbar-logo-color;
   transition: all $navbar-transition-speed;
+}
+
+.logo-fill-dark {
+  fill: $navbar-logo-color-fixed;
+  color: $navbar-logo-color-fixed;
+  transition: all $navbar-transition-speed;
+}
+
+#menu-button {
+  height: 2rem;
+  width: 2rem;
+
+  span {
+    font-size: 2rem;
+  }
 }

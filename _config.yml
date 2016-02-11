@@ -12,4 +12,6 @@ collections:
   - corporate
   - main
 
-gems: [jekyll-contentblocks]
+exclude: ['Gemfile', 'Gemfile.lock', 'config.ru', 'vendor']
+
+# gems: [jekyll-contentblocks]

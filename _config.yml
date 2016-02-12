@@ -12,6 +12,6 @@ collections:
   - corporate
   - main
 
-exclude: ['Gemfile', 'Gemfile.lock', 'config.ru', 'vendor']
+exclude: ['Gemfile', 'Gemfile.lock', 'config.ru', 'vendor', 'script', 'Rake', '.travis.yml']
 
 # gems: [jekyll-contentblocks]

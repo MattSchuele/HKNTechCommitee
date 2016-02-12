@@ -2,4 +2,6 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-# bundle exec htmlproof ./_site
+mv _site ../out
+#c bundle exec htmlproof ./_site
+

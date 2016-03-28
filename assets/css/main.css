@@ -444,6 +444,10 @@ footer {
   .page-container div h1 {
     font-size: 2rem; }
 
+.sponsor img {
+  height: 15vw;
+  max-height: 5rem; }
+
 #hero-image-main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.ece.illinois.edu/newsroom/images/ece-building-exterior.jpg");
   background-size: cover;

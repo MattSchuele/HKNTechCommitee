@@ -1,0 +1,12 @@
+---
+title: Officers
+tag: officers
+---
+
+{% for officer in site.data.officers %}
+<div>
+    <h3>{{officer.name}}</h3>
+    <p>{{officer.title}}</p>
+    <p>{{officer.email}}</p>
+</div>
+{% endfor %}

@@ -3,16 +3,12 @@ layout: page
 ---
 {% for entry in site.corporate %}
 <div>
+    {% if entry.title != blank %}
     <h1><a name="{{entry.tag}}">{{entry.title}}</a></h1>
+    {% endif %}
     <p>{{entry.content}}</p>
 </div>
 {% endfor %}
-
-<div>
-    <p>In addition, we help companies advertise career opportunities and campus events to our students through fliers, email newsletters, etc. Finally, companies have the opportunity to obtain an electronic copy of the resumes of our active members.</p>
-    <br>
-    <p>For more information on HKN’s Corporate Committee, sponsoring our society, or hosting an event, recruiters can contact our Corporate Director, Jonathan Pan-Doh, at hkn-corporate[at]ec.illinois.edu.</p>
-</div>
 
 
 {% contentfor hero-image-title %}

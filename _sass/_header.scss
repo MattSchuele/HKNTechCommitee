@@ -154,6 +154,11 @@ $navbar-sticky-color: #000;
   .links {
     li {
       width: 100%;
+      margin-bottom: 0.5rem;
+
+      a {
+        font-size: 1.5*$navbar-font-size;
+      }
     }
   }
 }
@@ -208,6 +213,7 @@ $navbar-sticky-color: #000;
 #menu-button {
   height: 2rem;
   width: 2rem;
+  text-align: center;
 
   span {
     font-size: 2rem;

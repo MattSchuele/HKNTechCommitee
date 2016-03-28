@@ -1,13 +1,16 @@
 ---
 title: Initiates
 ---
-Initiates
----
-Welcome to the HKN Initiates Page! Important Information will be posted here for the current semester’s initiate class. If you have any questions about any of the content here please email Ryan Grady, the Director of Initiate Affairs (contact information on the Officers Page).
+
+Welcome to the HKN Initiates Page! Important Information will be posted here for the current semester’s initiate class. If you have any questions about any of the content here please email Ryan Grady, the Director of Initiate Affairs (contact information on the [Officers Page](/about#officers)).
 
 Slides From Initiation Information Session
 ---
-[HKN Information Session Slides](http://hkn.ec.illinois.edu/wp-content/uploads/2013/04/HKN_INFO_SPRING_2014.pdf)
+[HKN Information Session Slides](/assets/files/HKNInfoSessionSp16.pdf)
+
+Initiate Office Hour Survey
+---------------------------
+Fill out this survey after your office hours [here](https://docs.google.com/a/illinois.edu/forms/d/1btYCkwNlMAfzudigIblMx3K-wF-xBcUEieCF6u_tKEM/viewform?c=0&w=1)
 
 Initiate Olympics
 ---
@@ -19,4 +22,12 @@ Soon, former initiates might come up looking for for their membership certificat
 
 Points Spreadsheet
 ---
-Check out your point totals [over here](http://hkn.ec.illinois.edu/initiates/initiate-points/)!
+Check out your point totals [over here](https://docs.google.com/spreadsheets/d/1xfLOlK13k8DCuZm-3t8qtOVLj25_zB79UESxmbyIMIE)!
+
+Committee Assignments
+---------------------
+Find your assigned committee [here](https://docs.google.com/spreadsheets/d/1sseb_rQL61SuDOwQdHZz1xqGn1NwC5mZ4qYlO0HrdzA/)
+
+Office Hours Schedule
+---------------------
+HKN initiate office hours schedule located [here](https://docs.google.com/spreadsheets/d/13j-zPGrA2uUiA3b3qtzgqirjb3SqN5DnKFzT4GdmeM8)

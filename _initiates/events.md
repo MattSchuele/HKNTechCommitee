@@ -7,4 +7,4 @@ By far the easiest way to get Social Points for initiation is by attending the w
 
 Mario Kart Mondays
 ---
-By far the second easiest way to get Social Points for initiation is by coming to Mario Kart Mondays! Pass by ECEB on Mondays at 5PM for some video games, free pizza, and 1 Social Point. Spring 2015 Mario Kart Mondays will start soon.
+The second easiest way to get Social Points for initiation is by coming to Mario Kart Mondays! Pass by ECEB on Mondays at 5PM for some video games, free pizza, and 1 Social Point. Spring 2015 Mario Kart Mondays will start soon.

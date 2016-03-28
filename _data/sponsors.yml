@@ -1,0 +1,23 @@
+- name: Rockwell Collins
+  img: rockwell.png
+
+- name: Microsoft
+  img: microsoft.svg
+
+- name: Dynetics
+  img: dynetics.svg
+
+- name: Chicago Trading Company
+  img: ctc.jpg
+
+- name: ARM
+  img: arm.svg
+
+- name: Allstate
+  img: allstate.gif
+
+- name: Algo Logic
+  img: algologic.jpg
+
+- name: National Instruments
+  img: ni.svg

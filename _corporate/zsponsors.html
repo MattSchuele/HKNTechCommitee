@@ -1,0 +1,13 @@
+---
+title: Sponsors
+---
+
+<h2>Sponsors Fall 2015 - Spring 2016</h3>
+
+{% for sponsor in site.data.sponsors %}
+<div class='sponsor'>
+    <h3>{{sponsor.name}}</h3>
+    
+    <img src='/assets/img/sponsors/{{sponsor.img}}' alt={{sponsor.name}}>
+</div>
+{% endfor %}

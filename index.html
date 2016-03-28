@@ -40,8 +40,11 @@ layout: navbar
             <h1>Join our newsletter!</h1>
         </div>
         <div>
-            <form>
+            <form action="https://lists.illinois.edu/lists" method="post">
                 <input type="text" name="email" placeholder="Email">
+                <input type="hidden" name="list" value="hkn-newsletter">
+                <input type="hidden" name="action" value="subrequest">
+                <input type="hidden" name="via_subrequest" value="1">
             </form>
         </div>
     </div>

@@ -10,7 +10,7 @@ Slides From Initiation Information Session
 
 Initiate Office Hour Survey
 ---------------------------
-Fill out this survey after your office hours [here](https://docs.google.com/a/illinois.edu/forms/d/1btYCkwNlMAfzudigIblMx3K-wF-xBcUEieCF6u_tKEM/viewform?c=0&w=1)
+Fill out this survey after your office hours [here](https://docs.google.com/a/illinois.edu/forms/d/1REVM75sKlwYqN_jC_8vZb0j6nx5ynMo6CHO69Nic0BU/viewform)
 
 Initiate Olympics
 ---

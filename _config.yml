@@ -1,5 +1,5 @@
 # Site settings
-title: Eta Kappa Nu Alpha Chapter
+title: Eta Kappa Nu
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Build settings
@@ -11,6 +11,9 @@ collections:
   - initiates
   - corporate
   - main
+
+sass:
+  style: compressed
 
 exclude: ['Gemfile', 'Gemfile.lock', 'config.ru', 'vendor', 'script', 'Rake', '.travis.yml']
 

@@ -80,7 +80,7 @@
 }
 
 #main-image {
-  @include image-base('http://www.ece.illinois.edu/newsroom/images/ece-building-exterior.jpg');
+  @include image-base('/assets/img/ece-building-exterior.jpg');
 }
 
 .filler {

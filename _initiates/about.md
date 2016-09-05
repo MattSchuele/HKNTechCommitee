@@ -2,7 +2,7 @@
 title: Initiates
 ---
 
-Welcome to the HKN Initiates Page! Important Information will be posted here for the current semester’s initiate class. If you have any questions about any of the content here please email Ryan Grady, the Director of Initiate Affairs (contact information on the [Officers Page](/about#officers)).
+Welcome to the HKN Initiates Page! Important Information will be posted here as it is created for the current semester’s initiate class. If you have any questions about any of the content here please email Alec Wasowicz, the Director of Initiate Affairs (contact information on the [Officers Page](/about#officers)).
 
 Slides From Initiation Information Session
 ---
@@ -22,7 +22,7 @@ Soon, former initiates might come up looking for for their membership certificat
 
 Points Spreadsheet
 ---
-Check out your point totals [over here](https://docs.google.com/spreadsheets/d/1xfLOlK13k8DCuZm-3t8qtOVLj25_zB79UESxmbyIMIE)!
+Check out your point totals [over here](https://docs.google.com/spreadsheets/d/18SS-g30jM4bz6l07cKIqzJaaGHFN2PiI-SAu-WJKgsk/edit#gid=0)!
 
 Committee Assignments
 ---------------------

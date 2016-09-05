@@ -6,7 +6,7 @@ Welcome to the HKN Initiates Page! Important Information will be posted here as 
 
 Slides From Initiation Information Session
 ---
-[HKN Information Session Slides](/assets/files/HKNInfoSessionSp16.pdf)
+[HKN Information Session Slides](/assets/files/HKNInfoSessionFA16.pdf)
 
 Initiate Office Hour Survey
 ---------------------------

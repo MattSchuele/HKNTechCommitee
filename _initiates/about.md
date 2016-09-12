@@ -10,7 +10,7 @@ Slides From Initiation Information Session
 
 Initiate Office Hour Survey
 ---------------------------
-Fill out this survey after your office hours [here](https://docs.google.com/a/illinois.edu/forms/d/1REVM75sKlwYqN_jC_8vZb0j6nx5ynMo6CHO69Nic0BU/viewform)
+Fill out this survey after your office hours this week [here](https://goo.gl/forms/GDSFsucobsS5CrzX2)
 
 Initiate Olympics
 ---
@@ -26,8 +26,8 @@ Check out your point totals [over here](https://docs.google.com/spreadsheets/d/1
 
 Committee Assignments
 ---------------------
-Find your assigned committee [here](https://docs.google.com/spreadsheets/d/1sseb_rQL61SuDOwQdHZz1xqGn1NwC5mZ4qYlO0HrdzA/)
+Find your assigned committee [here](https://docs.google.com/a/illinois.edu/spreadsheets/d/1UJ-sT4nVzCKlvLKBvf_ESmxN1w1P7uW3o2NNbOdPDtY/edit?usp=sharing)
 
 Office Hours Schedule
 ---------------------
-HKN initiate office hours schedule located [here](https://docs.google.com/spreadsheets/d/13j-zPGrA2uUiA3b3qtzgqirjb3SqN5DnKFzT4GdmeM8)
+HKN initiate office hours schedule located [here](https://docs.google.com/a/illinois.edu/spreadsheets/d/1fAqk5L3qYzgL7RoGiDIrFIKoyVcHjhLqKxnNVyyToaM/edit?usp=sharing)

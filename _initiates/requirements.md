@@ -24,7 +24,7 @@ Graduates still have to pay dues ($100.00), but the rest of the requirements are
 
 Office Hours
 ---
-An updated office hours schedule is linked above. If you cannot make your office hours for any reason, contact Alan or Alec (contact information on the Officers Page) to schedule a makeup office hour.
+An updated office hours schedule is linked above. If you cannot make your office hours for any reason, contact Alan Yang or Alec Wasowicz (contact information on the Officers Page) to schedule a makeup office hour.
 
 Committee Participation
 ---

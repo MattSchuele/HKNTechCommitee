@@ -2,6 +2,19 @@
 title: Review Sessions
 ---
 
+Fall 2016 
+-----------
+
+###First midterm review session:
+
+[ECE 120 Slides](/assets/files/HKNECE120ReviewSession1FA16.pdf)
+
+[ECE 210 Slides Part 1](/assets/files/HKNECE210ReviewSession1FA16pt1.pdf)
+[ECE 210 Slides Part 2] 
+[ECE 210 Slides Part 3](/assets/files/HKNECE210ReviewSession1FA16pt3.pdf)
+
+[ECE 220 Slides](/assets/files/HKNECE220ReviewSession1FA16.pdf)
+
 Spring 2016
 -----------
 

@@ -7,4 +7,4 @@ By far the easiest way to get Social Points for initiation is by attending the w
 
 Smash Mondays
 ---
-The second easiest way to get Social Points for initiation is by coming to Smash Mondays! Pass by ECEB 3017 on Mondays at 5PM for some video games, free pizza, and 1 Social Point. Fall 2016 Smash Mondays have started!
+The second easiest way to get Social Points for initiation is by coming to Smash Mondays! Pass by ECEB 3013 on Mondays at 5PM for some video games, free pizza, and 1 Social Point. Fall 2016 Smash Mondays have started!

@@ -4,7 +4,7 @@ title: Dr. Everitt's Neighborhood
 
 Purpose
 ---
-Dr. Everitt’s Neighborhood is an independent, student-run guide intended to provide all sorts of useful knowledge about life as an ECE student. Our philosophy is that it is important not to simply repeat the department’s published information, but to supplement it by adding students’ perspectives.
+Dr. Everitt’s Neighborhood is an independent, student-run guide intended to provide all sorts of useful knowledge about life as an ECE student. Our philosophy is that it is important not to simply repeat the department’s published information, but to supplement it by adding students’ perspectives on workload, course content, and what other courses to take with/after courses.
 
 Disclaimer
 ---

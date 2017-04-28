@@ -1,16 +1,15 @@
----
-title: Initiates  
----
+<h1 id="i1">Initiates</h1>
 
-Welcome to the HKN Initiates Page! Important Information will be posted here as it is created for the current semester’s initiate class. If you have any questions about any of the content here please email Molly Fane, the Director of Initiate Affairs (contact information on the [Officers Page](/about#officers)).
+Welcome to the HKN Initiates Page! Important Information will be posted here as it is created for the current semester’s initiate class. If you have any questions about any of the content here please email Alec Wasowicz, the Director of Initiate Affairs (contact information on the [Officers Page](/about#officers)).
 
 Slides From Initiation Information Session
 ---
-[HKN Information Session Slides](/assets/files/HKNInfoSessionSP17.pdf)
+[HKN Information Session Slides](/assets/files/HKNInfoSessionFA16.pdf)
 
-Initiate Office Hour Selfies
+Initiate Office Hour Survey
 ---------------------------
-Be sure to take your selfie during your office hours and share it via the DropBox link in the office! 
+Fill out this survey after your office hours this week [here](https://goo.gl/forms/gvRL3UvFwSEf1VMz2)
+Note, the survey changes weekly!
 
 Initiate Olympics
 ---
@@ -22,18 +21,12 @@ Soon, former initiates might come up looking for for their membership certificat
 
 Points Spreadsheet
 ---
-Check out your point totals [over here](https://docs.google.com/spreadsheets/d/1oXljo0vW4aKDYPTuPgeLHTRbvQsRguwb72iqlBfmJ-g/edit#gid=0)!
-
-If they are not up to date, be sure to e-mail Molly!
+Check out your point totals [over here](https://docs.google.com/spreadsheets/d/18SS-g30jM4bz6l07cKIqzJaaGHFN2PiI-SAu-WJKgsk/edit#gid=0)!
 
 Committee Assignments
 ---------------------
-Find your assigned committee [here](https://docs.google.com/spreadsheets/d/1ZGN5ynhlGnaO3fKA7R2H8F6POXHC1h5xehamPig1IbM/edit?usp=sharing)
-
-Remember, you should be working with your assigned committee throughout the semester!
+Find your assigned committee [here](https://docs.google.com/a/illinois.edu/spreadsheets/d/1UJ-sT4nVzCKlvLKBvf_ESmxN1w1P7uW3o2NNbOdPDtY/edit?usp=sharing)
 
 Office Hours Schedule
 ---------------------
-HKN initiate office hours schedule located [here](https://docs.google.com/a/illinois.edu/spreadsheets/d/1Mf_MQSe5wRf3kgCtgYbvjfT61S92MMsKHJiwhciaYFU/edit?usp=sharing)
-
-Remember, office hours are every week.
+HKN initiate office hours schedule located [here](https://docs.google.com/a/illinois.edu/spreadsheets/d/1fAqk5L3qYzgL7RoGiDIrFIKoyVcHjhLqKxnNVyyToaM/edit?usp=sharing)

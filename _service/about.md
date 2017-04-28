@@ -1,6 +1,4 @@
----
-title: Student Services
----
+<h1 id="s1">Student Services</h1>
 
 Review sessions:
 ---
@@ -13,10 +11,6 @@ HKN offers free one-on-one peer tutoring. Simply contact a tutor to arrange a ti
 After the session, please fill out [this form](https://docs.google.com/forms/d/1NMAgB1nKT2S_UE7yKy4KB6PNFr4cqnBuRoIP3wegFes/viewform). We appreciate your feedback.
 
 If you would like to be an HKN tutor, [click here](https://docs.google.com/forms/d/1Kj8xE6wZOQdUpwV4j6Zf6Dzfp2YrMeagnkyy8PUv4Lk/viewform).
-
-
-
-<iframe src="https://docs.google.com/spreadsheets/d/1nAKdwokuRcKhCNZ9CoPDkqRUha0t7iGycCvHT5QFOts/pubhtml?rm=mimal&amp;gid=0&amp;single=true&amp;chrome=false" width="55%" height="515vh" frameborder="0"></iframe>
 
 Group Tutoring:
 ---
@@ -32,7 +26,7 @@ Tutorials:
 ---
 HKN runs tutorials throughout the semester to teach students practical skills to help them complete their assignments and give them real-world skills.
 
-Power Lunches
+Power Lunches:
 ---
 Throughout the course of the semester, we arrange lunches with faculty members so that students can get to know them in a more intimate setting.
 Stay up to date with HKN events by following our Google Calendar.

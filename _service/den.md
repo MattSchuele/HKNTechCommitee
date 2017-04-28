@@ -14,7 +14,7 @@ In addition, various ECE student organizations offer services that give such adv
 
 Getting Involved
 ---
-Dr. Everitt’s Neighborhood is an independent resource written for ECE students, by ECE students; under the oversight of Eta Kappa Nu, the ECE honor society; and with the support, but minimal involvement, of the ECE department.
+Dr. Everitt’s Neighborhood is an independent, student-run guide intended to provide all sorts of useful knowledge about life as an ECE student. Our philosophy is that it is important not to simply repeat the department’s published information, but to supplement it by adding students’ perspectives on workload, course content, and what other courses to take with/after courses.
 
 Ultimately this resource is what you, the fellow ECE student, make of it. It may help you choose courses, research interests, learn more about professors and their personal and professional interests, stay informed on student opinions, etc. Accordingly, this resource lives on the feedback and ideas of the students in ECE. If you can think of other articles or features to include, we want to know, and if you want, you can even help write them.
 

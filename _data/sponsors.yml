@@ -1,23 +1,20 @@
-- name: Rockwell Collins
-  img: rockwell.png
-
-- name: Microsoft
-  img: microsoft.svg
-
-- name: Dynetics
-  img: dynetics.svg
-
 - name: Chicago Trading Company
   img: ctc.jpg
 
-- name: ARM
-  img: arm.svg
+- name: IMC Financial Markets
+  img: IMC.jpg
 
-- name: Allstate
-  img: allstate.gif
+- name: LGS Innovations
+  img: LGS.png
 
-- name: Algo Logic
-  img: algologic.jpg
+- name: Maxim Integrated
+  img: Maxim.png
 
-- name: National Instruments
-  img: ni.svg
+- name: Northrop Grumman
+  img: northrop.png
+
+- name: Synopsys
+  img: synopsys.png
+
+- name: Wish
+  img: wish.jpg

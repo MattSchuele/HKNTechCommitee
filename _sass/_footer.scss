@@ -4,6 +4,7 @@ $footer-font-color: #a0a0a0;
 $footer-font-header-color: #c3c3c3;
 
 footer {
+  @include span-columns(12);
   width: 100%;
   background-color: $footer-color;
 

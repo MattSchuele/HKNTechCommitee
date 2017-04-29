@@ -3,10 +3,12 @@ title: Officers
 tag: officers
 ---
 
+<div class="cards">
 {% for officer in site.data.officers %}
-<div>
-    <h3>{{officer.name}}</h3>
-    <p>{{officer.title}}</p>
-    <p>{{officer.email}}</p>
+<div class="card">
+	<div class="card-image"><img src ="/assets/img/officers/{{officer.img}}"/></div>
+    <div class="card-header">{{officer.name}}</div>
+    <div class="card-copy">{{officer.title}} <br> {{officer.email}}</div>
 </div>
 {% endfor %}
+</div>

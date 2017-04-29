@@ -26,7 +26,7 @@
   border: $card-border;
   border-radius: $base-border-radius;
   box-shadow: 0 2px 4px darken($base-background-color, 10%);
-  cursor: pointer;
+
   flex-basis: 15em;
   flex-grow: 15em;
   margin: 0 $card-margin $base-spacing $card-margin;
@@ -67,14 +67,6 @@
     }
   }
 
-  &:focus,
-  &:hover {
-    cursor: pointer;
-
-    img {
-      opacity: $card-image-hover-opacity;
-    }
-  }
 
   &:active {
     background-color: $card-background;
